@@ -110,7 +110,7 @@
 									<ContextMenu name="ПолныйИнтерфейсКонтекстноеМеню" id="135"/>
 									<ExtendedTooltip name="ПолныйИнтерфейсРасширеннаяПодсказка" id="136"/>
 									<Events>
-										<Event name="OnChange">ПолныйИнтерфесйПриИзменении</Event>
+										<Event name="OnChange">ПолныйИнтерфейсПриИзменении</Event>
 									</Events>
 								</CheckBoxField>
 								<Button name="ЗагрузитьИзТабДок" id="112">
@@ -447,27 +447,6 @@
 											<ContextMenu name="ОбменыКомментарийПравыйКонтекстноеМеню" id="138"/>
 											<ExtendedTooltip name="ОбменыКомментарийПравыйРасширеннаяПодсказка" id="139"/>
 										</InputField>
-										<CheckBoxField name="ОбменыКомментСЛева" id="125">
-											<DataPath>Объект.Обмены.КомментСЛева</DataPath>
-											<Visible>false</Visible>
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Коммент
-с лева</v8:content>
-												</v8:item>
-											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Комментарий будет отображён с лева от линии обмена.</v8:content>
-												</v8:item>
-											</ToolTip>
-											<EditMode>EnterOnInput</EditMode>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="ОбменыКомментСЛеваКонтекстноеМеню" id="126"/>
-											<ExtendedTooltip name="ОбменыКомментСЛеваРасширеннаяПодсказка" id="127"/>
-										</CheckBoxField>
 										<CheckBoxField name="ОбменыДвусторонний" id="48">
 											<DataPath>Объект.Обмены.Двусторонний</DataPath>
 											<Title>
@@ -872,7 +851,7 @@
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Версия v.0.03  21-09-2024</v8:content>
+									<v8:content>Версия</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="ВерсияКонтекстноеМеню" id="70"/>
