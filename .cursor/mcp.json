@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "unica": {
+      "command": "${env:LOCALAPPDATA}\\unica\\runtime\\bin\\win-x64\\unica.exe",
+      "args": [],
+      "env": {
+        "UNICA_RUNTIME_CACHE_DIR": "${env:LOCALAPPDATA}\\unica\\runtimes"
+      }
+    }
+  }
+}
