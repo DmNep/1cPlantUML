@@ -79,7 +79,7 @@
 
 | Путь | Назначение |
 | --- | --- |
-| `1c_ObmSchem.xml`, `1c_ObmSchem/` | Исходники обработки в формате выгрузки Конфигуратора |
+| `1c_PlantUML.xml`, `1c_PlantUML/` | Исходники обработки в формате выгрузки Конфигуратора |
 | `src/test-processors/` | Внешняя обработка автотеста |
 | `v8project.yaml` | Проект Unica / v8-runner (source-set внешних обработок) |
 | `build/` | Собранный `.epf` (локально, не в git) |
@@ -91,7 +91,7 @@
 Исходники — Designer XML 2.20. Собрать EPF можно Конфигуратором:
 
 ```text
-1cv8 DESIGNER /F "<информационная база>" /LoadExternalDataProcessorOrReportFromFiles 1c_ObmSchem.xml "1c PlantUML.epf"
+1cv8 DESIGNER /F "<информационная база>" /LoadExternalDataProcessorOrReportFromFiles 1c_PlantUML.xml "1c PlantUML.epf"
 ```
 
 Локальную строку соединения и путь к платформе кладите в `v8project.local.yaml`, этот файл в git не входит.
