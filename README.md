@@ -106,4 +106,4 @@
 
 Код в репозитории открыт. Готовые `.epf` также публикуются в [Базе знаний Infostart](https://infostart.ru/1c/2109404/). 
 
-Обратная связь и предложения — в комментариях к статье или в этом репозитории: [github.com/DmNep/1cObmSchem](https://github.com/DmNep/1cObmSchem).
+Обратная связь и предложения — в комментариях к статье или в этом репозитории: [github.com/DmNep/1cPlantUML](https://github.com/DmNep/1cPlantUML).
