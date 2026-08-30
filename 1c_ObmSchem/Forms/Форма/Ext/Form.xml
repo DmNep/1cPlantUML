@@ -3,7 +3,7 @@
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
-			<v8:content>ObmSchem</v8:content>
+			<v8:content>1c PlantUML</v8:content>
 		</v8:item>
 	</Title>
 	<SaveWindowSettings>false</SaveWindowSettings>
@@ -11,6 +11,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="Страницы" id="63">
@@ -910,7 +911,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalDataProcessorObject.ПостроительСхемыОбменов</v8:Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.PlantUML</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>

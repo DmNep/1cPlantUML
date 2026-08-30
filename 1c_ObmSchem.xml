@@ -6,31 +6,31 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>5780349c-5901-4ae4-ba8d-0596be456b32</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.ПостроительСхемыОбменов" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.PlantUML" category="Object">
 				<xr:TypeId>a0abbb1c-8a8e-45d8-9a22-a29475e42f3c</xr:TypeId>
 				<xr:ValueId>be2876b9-f2e0-48fc-a2da-42fc9f74feee</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПостроительСхемыОбменов</Name>
+			<Name>PlantUML</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Построитель схемы обменов</v8:content>
+					<v8:content>1c PlantUML</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment>28-08-2026 v0.041</Comment>
-			<DefaultForm>ExternalDataProcessor.ПостроительСхемыОбменов.Form.Форма</DefaultForm>
+			<DefaultForm>ExternalDataProcessor.PlantUML.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
 			<TabularSection uuid="5d9c909a-6ed8-4321-b08d-4230d9d79a69">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ПостроительСхемыОбменов.Базы" category="TabularSection">
+					<xr:GeneratedType name="DataProcessorTabularSection.PlantUML.Базы" category="TabularSection">
 						<xr:TypeId>1ee4c8be-2f0d-4718-bede-8fa70137fb94</xr:TypeId>
 						<xr:ValueId>a2367652-da32-41a5-bc60-31026ac99fdd</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПостроительСхемыОбменов.Базы" category="TabularSectionRow">
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.PlantUML.Базы" category="TabularSectionRow">
 						<xr:TypeId>ce1920d0-a89d-4b45-8919-d08114f9b97b</xr:TypeId>
 						<xr:ValueId>bb4b9a2e-071f-4227-845c-f4ea1ef8a623</xr:ValueId>
 					</xr:GeneratedType>
@@ -237,11 +237,11 @@
 			</TabularSection>
 			<TabularSection uuid="04e2200e-0384-41ba-83bf-d3f8b65e45fa">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ПостроительСхемыОбменов.Обмены" category="TabularSection">
+					<xr:GeneratedType name="DataProcessorTabularSection.PlantUML.Обмены" category="TabularSection">
 						<xr:TypeId>ea61a493-4351-4157-a015-634248b81f87</xr:TypeId>
 						<xr:ValueId>2100ed36-1457-4046-b460-cdb7c7e81f68</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПостроительСхемыОбменов.Обмены" category="TabularSectionRow">
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.PlantUML.Обмены" category="TabularSectionRow">
 						<xr:TypeId>02e3ba5f-3889-42df-902c-cbe64a721b79</xr:TypeId>
 						<xr:ValueId>7b4d9aec-1d13-459c-b9e7-32f431585632</xr:ValueId>
 					</xr:GeneratedType>

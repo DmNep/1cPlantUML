@@ -1,6 +1,6 @@
-# ObmSсhem
+# 1c PlantUML
 
-1C:Enterprise OBM SCHEM
+1C:Enterprise PlantUML exchange schema builder
 
 Relese:
 
