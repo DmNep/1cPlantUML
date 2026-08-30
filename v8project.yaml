@@ -1,0 +1,8 @@
+workPath: build/runtime
+execution_timeout: 300000
+format: DESIGNER
+builder: DESIGNER
+source-set:
+  - name: external-processors
+    type: EXTERNAL_DATA_PROCESSORS
+    path: src/external-processors
